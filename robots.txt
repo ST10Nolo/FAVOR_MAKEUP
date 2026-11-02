@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elaborate-cajeta-bc4e8f.netlify.app/
