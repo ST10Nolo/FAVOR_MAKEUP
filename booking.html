@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Favor Makeup | Booking</title>
+
+    <!-- Connects this page to the CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Website navigation -->
+    <header>
+        <nav>
+            <h1>Favor Makeup</h1>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+
+        <!-- Booking introduction -->
+        <section class="booking-intro">
+            <h2>Book With Favor Makeup</h2>
+
+            <p>
+                Complete the form below to send a booking enquiry.
+                We will use your information to respond to your request.
+            </p>
+        </section>
+
+        <!-- Booking form -->
+        <section class="booking-form-section">
+
+            <form id="bookingForm">
+
+                <!-- Full name -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <!-- Phone -->
+                <label for="phone">Contact Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <!-- Service -->
+                <label for="service">Select a Service:</label>
+                <select id="service" name="service" required>
+                    <option value="">-- Select a service --</option>
+                    <option value="occasional-makeup">Occasional Makeup</option>
+                    <option value="bridal-makeup">Bridal Makeup</option>
+                    <option value="hair-installation">Hair Installation</option>
+                    <option value="hair-styling">Hair Styling</option>
+                    <option value="wig-customisation">Wig Customisation</option>
+                    <option value="wig-treatment">Wig Treatment</option>
+                </select>
+
+                <!-- Preferred date -->
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <!-- Location -->
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+
+                <!-- Additional message -->
+                <label for="message">Additional Requirements:</label>
+                <textarea id="message"
+                          name="message"
+                          rows="5"
+                          placeholder="Tell us anything else we should know..."></textarea>
+
+                <!-- Submit button -->
+                <button type="submit">Submit Booking Enquiry</button>
+
+            </form>
+
+        </section>
+
+        <!-- Booking policy -->
+        <section class="booking-policy">
+
+            <h2>Booking Policy</h2>
+
+            <p>
+                A 50% non-refundable deposit is required to secure a booking.
+            </p>
+
+            <p>
+                Please provide accurate information when submitting your
+                booking enquiry.
+            </p>
+
+            <p>
+                Booking availability will be confirmed after your enquiry
+                has been reviewed.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Favor Makeup. All rights reserved.</p>
+    </footer>
+
+    <!-- Connects JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
