@@ -142,6 +142,93 @@ The website was tested to ensure that:
 - Added testing information.
 - Added project changelog.
 
+# Favour Makeup Website
+
+## Project Overview
+
+Favour Makeup is a beauty business website designed to introduce visitors to the business, showcase its services and products, and allow visitors to make enquiries.
+
+## Part 3: Enhancing Functionality and SEO
+
+### JavaScript Functionality
+
+JavaScript was used to add interactive features to the website, including:
+
+- Automatic display of the current year in the footer.
+- Product search functionality.
+- Frequently Asked Questions accordion.
+- Image gallery lightbox.
+- Scroll reveal animations.
+- Client-side form validation.
+- Enquiry responses based on the selected enquiry type.
+
+### Interactive Map
+
+A Google Maps embed was added to the contact page to display the Fourways area in Johannesburg.
+
+The map displays the general area and does not represent a verified street address for the business.
+
+### Search Engine Optimisation
+
+SEO improvements include:
+
+- Unique page titles.
+- Meta descriptions for all website pages.
+- Relevant keywords in page content.
+- Structured heading tags.
+- Descriptive image filenames.
+- Alternative text for images.
+- Internal navigation links.
+- robots.txt file.
+- sitemap.xml file.
+
+### Form Functionality
+
+The enquiry form collects information about services, products and other opportunities.
+
+The contact form collects general messages and prepares an email using the visitor's email application when the business email address is configured.
+
+Client-side validation checks required fields and email addresses.
+
+### Performance and Accessibility
+
+The website includes responsive layouts, image loading improvements, keyboard focus indicators and reduced-motion support.
+
+## Changelog
+
+### Part 3
+
+- Added JavaScript functionality for interactive website features.
+- Added product search and FAQ accordion.
+- Added image gallery lightbox.
+- Added client-side form validation.
+- Added enquiry responses based on enquiry type.
+- Added Google Maps embed to the contact page.
+- Added SEO titles and meta descriptions.
+- Added robots.txt and sitemap.xml.
+- Improved image alternative text and loading behaviour.
+- Updated website accessibility and responsive behaviour.
+- Recorded Part 2 improvements and Part 3 changes.
+
+## References
+
+Add the sources actually used for your project. Examples of sources to consult and cite include:
+
+- Mozilla Developer Network (MDN) Web Docs. HTML, CSS and JavaScript documentation. https://developer.mozilla.org/
+- Google Maps. Google Maps. https://www.google.com/maps
+- Google Search Central. SEO Starter Guide. https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+- GitHub Docs. GitHub documentation. https://docs.github.com/
+
+Record the date you accessed each online source and follow the Harvard referencing style required by your institution.
+
+## Deployment
+
+Website hosting platform: To be completed after deployment.
+
+Live website URL: To be added after successful deployment.
+
+GitHub repository: To be added after the repository has been created and pushed.
+
 ## Developer
 
 **Nyiko Baloyi**
